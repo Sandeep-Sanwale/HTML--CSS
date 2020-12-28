@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="apply.css">
+    <link href="https://fonts.googleapis.com/css2?family=Peddana&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Peddana&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        /* .login-background {
+            background: url('loginbg.jpg');
+            width: 100%;
+            height: 600px;
+        } */
+
+        .login-container {
+            /* background: url('loginbg.jpg') no-repeat center center/cover; */
+            /* font-family: 'Peddana', serif; */
+            color: black;
+            /* display: flex; */
+            position: absolute;
+            top: 250px;
+            left: 455px;
+            width: 40%;
+            height: 350px;
+            border: 1px solid #e8dada;
+            border-radius: 2px;
+            background-color: #f8f6f6;
+            text-align: center;
+            justify-content: center;
+            padding: 10px 10px;
+
+        }
+
+        .container-apply::after {
+            content: "";
+            position: absolute;
+            background: url('loginbg.jpg') no-repeat center center/cover;
+            height: 92vh;
+            top: 115px;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.50;
+        }
+
+
+
+        #users-login1 {
+            width: 400px;
+            height: 25px;
+            margin: 40px 20px 0px 20px;
+            padding: 2px;
+            border-radius: 3px;
+        }
+
+        #users-login2 {
+            width: 395px;
+            height: 20px;
+            margin: 10px 20px 0px 20px;
+            border-radius: 3px;
+        }
+
+        #users-login3 {
+            width: 395px;
+            height: 20px;
+            margin: 10px 20px 0px 20px;
+            border-radius: 3px;
+        }
+
+        button {
+            margin: 10px 0px 0px 0px;
+            width: 400px;
+            height: 25px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-apply">
+        <ul class="menu-apply">
+            <li><a href="project.html">Home|</a></li>
+            <li><a href="#">University website</a></li>
+        </ul>
+        <div class="btn-apply">
+            <span>Login</span>
+        </div>
+    </div>
+    <nav class="navbar">
+        <img src="bu logo.png.png" alt="">
+        <div class="navbar1">
+            <h1>Barkatullah University</h1>
+            <h3>Bhopal</h3>
+        </div>
+        <div class="login-background">
+            <div class="login-container">
+                <h2>USER &nbsp;LOGIN</h2>
+                <div class="login-innerbox">
+                    <div>
+                        <select name="cars" id="users-login1">
+                            <option value="Select user type" selected>Select user type</option>
+                            <option value="G2G">G2G</option>
+                            <option value="UTD">UTD</option>
+                            <option value="KIOSK">KIOSK</option>
+                            <option value="College">College</option>
+                            <option value="Student">Student</option>
+                        </select>
+
+                    </div>
+                    <div>
+                        <input id="users-login2" type="text" placeholder="user name:">
+                    </div>
+                    <div>
+                        <input id="users-login3" class="users-input" type="password" placeholder="password:">
+                    </div>
+                    <button>submit</button>
+                </div>
+            </div>
+        </div>
+
+</body>
+
+</html>

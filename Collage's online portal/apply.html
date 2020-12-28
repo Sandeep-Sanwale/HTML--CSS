@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply</title>
+    <link rel="stylesheet" href="apply.css">
+    <link href="https://fonts.googleapis.com/css2?family=Peddana&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Peddana&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Peddana&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-apply">
+        <ul class="menu-apply">
+            <li><a href="project.html">Home|</a></li>
+            <li><a href="#">University website</a></li>
+        </ul>
+        <div class="btn-apply">
+            <span><a href="login.html">Login</a></span>
+        </div>
+    </div>
+    <nav class="navbar">
+        <img src="bu logo.png.png" alt="">
+        <div class="navbar1">
+            <h1>Barkatullah University</h1>
+            <h3>Bhopal</h3>
+        </div>
+    </nav>
+    <div class="box">
+        <h2>Semester Fee submission</h2>
+        <div class="bottom-border"></div>
+        <div class="bottom-border2"></div>
+        <div class="box2">
+            <div class="inner-box">
+                <p>Search Criteria</p>
+            </div>
+            <div class="inner-box2">
+                <p>Fields marked with * are mandatory</p>
+                <p>
+                    <span>प्रथम </span>Semester/year <span>के ऐसे छात्र जिनका</span> Enrollment No. <span>आवंटित नहीं
+                        हुआ है,</span> Fee Submit
+                    <span>करने के
+                        लिए</span>
+                    Enrollment No <span>के स्थान
+                        पर</span> Application No. <span>का प्रयोग करे.</span></p>
+
+            </div>
+            <form action="backend.php">
+                <table border="single" class="apply-table">
+                    <tbody>
+                        <tr>
+                            <th width=50%>Enrollment Number:*</th>
+                            <th><input type="text" id="first-para"></th>
+
+                        </tr>
+                        <tr>
+                            <th>Semester:*</th>
+                            <th>
+                                <label for="second-para"></label>
+                                <select name="" id="second-para">
+                                    <option value="select Semester">select semester</option>
+                                    <option value="select Semester">I</option>
+                                    <option value="select Semester">II</option>
+                                    <option value="select Semester">III</option>
+                                    <option value="select Semester">IV</option>
+                                    <option value="select Semester">V</option>
+                                    <option value="select Semester">VI</option>
+                                    <option value="select Semester">VII</option>
+                                    <option value="select Semester">VIII</option>
+                                </select>
+                            </th>
+
+                        </tr>
+                        <tr>
+                            <th>Semester Fee Session:*</th>
+                            <th><input type="month" id="third-para"></th>
+
+                        </tr>
+
+                    </tbody>
+                </table>
+                <button>Search</button>
+
+        </div>
+    </div>
+    </form>
+
+
+
+</body>
+
+</html>
